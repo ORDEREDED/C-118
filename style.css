@@ -1,0 +1,27 @@
+canvas{
+border: 5px solid yellow;
+border-radius: 10px;
+animation-name: distractiondance;
+animation-duration:4s;
+animation-iteration-count:infinite;
+}
+@keyframes distractiondance{
+0%{
+box-shadow: 5px 5px 45px blue;
+}
+25%{
+    box-shadow: 5px 5px 45px green;
+    }
+    50%{
+        box-shadow: 5px 5px 45px peru;
+        }
+        75%{
+            box-shadow: 5px 5px 45px pink;
+            }
+            100%{
+                box-shadow: 5px 5px 45px burlywood;
+                }
+            }
+            body{
+                background:linear-gradient(yellow 0%, purple 100%);
+            }
